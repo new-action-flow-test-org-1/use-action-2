@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:    
     - uses: actions/checkout@v2
-    - uses: new-action-flow-test-org-1/use-action-2@main
+    - uses: new-action-flow-test-org-1/use-action-1@main
