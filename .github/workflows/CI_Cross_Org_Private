@@ -1,0 +1,10 @@
+name: CI_Cross_Org_Private
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+    - uses: actions/checkout@v2
+    - uses: new-action-flow-test-org-2/addash-action-repo-2@main
